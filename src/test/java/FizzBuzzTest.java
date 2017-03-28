@@ -62,4 +62,9 @@ public class FizzBuzzTest {
         assertEquals("fizzbuzz", FizzBuzz.getResult(15));
     }
 
+    @Test
+    public void returnFizzBuzzForGivenThirty() {
+        assertEquals("fizzbuzz", FizzBuzz.getResult(30));
+    }
+
 }
